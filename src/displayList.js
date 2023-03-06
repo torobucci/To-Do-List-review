@@ -22,9 +22,6 @@ export function displayList(toDoData) {
     const icon = document.createElement('i');
     icon.className = 'fa-solid fa-ellipsis-vertical';
     li.appendChild(icon);
-    /* if(data.completed){
-        checkbox.setAttribute('checked','checked')
-    } */
   });
   if (document.querySelectorAll('.added')) {
     const added = document.querySelectorAll('.added');
